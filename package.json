@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/boo1ean/mgrt-migrations/issues"
   },
-  "homepage": "https://github.com/boo1ean/mgrt-migrations"
+  "homepage": "https://github.com/boo1ean/mgrt-migrations",
+  "dependencies": {
+    "mkdirp": "~0.3.5"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
+  }
 }

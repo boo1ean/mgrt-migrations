@@ -1,6 +1,6 @@
 {
   "name": "mgrt-migrations",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Migrations dir creation plugin for mgrt",
   "main": "index.js",
   "scripts": {

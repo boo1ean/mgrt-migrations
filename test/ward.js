@@ -8,9 +8,9 @@ describe('File storage ward', function() {
 		var path = __dirname + '/migrations',
 		    env = { path: path };
 
-		exists(path).should.not.ok;
+		exists(path).should.not.be.ok;
 		ward.call(env, function() {
-			exists(path).should.ok;
+			exists(path).should.be.ok;
 			rmdir(path);
 			done();
 		});

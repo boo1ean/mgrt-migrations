@@ -6,10 +6,7 @@
   "scripts": {
     "test": "make test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/boo1ean/mgrt-migrations.git"
-  },
+  "repository": "https://github.com/boo1ean/mgrt-migrations.git",
   "keywords": [
     "mgrt",
     "mgrt-plugin",
